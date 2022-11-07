@@ -8,7 +8,7 @@
 1. [ Project Description. ](#desc)
 2. [ Development Setup ](#setup)
 3. [ Running the program ](#installation)
-5. [ References ](#ref)
+5. [ Output ](#result)
 
 <a name="desc"></a>
 # Transform Jumia Scraped Data
@@ -51,12 +51,12 @@ $/> python transformer.py
 ## Output
 The program displays the resulting dataframe with date and corresponding review/posts.
 
-The Result is also saved in a csv format - [`transformed_output_data.csv`](https://stackoverflow.com/) and is as displayed in the figure and table below:
+The Result is also saved in a csv format - [`transformed_output_data.csv`](https://github.com/DeleLinus/Cleaner/blob/master/transformed_output_data.csv) and is as displayed in the figure and table below:
 
 ![image](https://user-images.githubusercontent.com/58152694/200407435-31f3c903-2292-40b8-9693-f69b7e115b98.png)
 
 |dates     |posts                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|---------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |02-09-2022|5 out of 5I like itIs so good                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |01-09-2022|5 out of 5NiceWorks fine                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |01-09-2022|4 out of 5ImpressedIt's a very good product with commendable sound quality                                                                                                                                                                                                                                                                                                                                                                                                                                   |
